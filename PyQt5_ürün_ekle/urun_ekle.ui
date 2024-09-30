@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1010</width>
+    <height>656</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>190</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ürün Açıklaması</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lneurunAciklamasi">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>220</y>
+      <width>251</width>
+      <height>91</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>340</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ürün Kategorisi</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cmbMarka">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>370</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>-1</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>Samsung</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Apple</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Oppo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Xiomi</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cmbKategori">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>370</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>-1</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>Telefon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tablet</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bilgisayar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Beyaz Eşya</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Saat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VR Gözlük</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>340</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ürün Markası</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tblListele">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>50</y>
+      <width>551</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="rowCount">
+     <number>30</number>
+    </property>
+    <property name="columnCount">
+     <number>7</number>
+    </property>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>20</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kategoriye Göre Listele</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cmbKategoriListele">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>20</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>-1</number>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QComboBox::AdjustToMinimumContentsLengthWithIcon</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>Telefon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tablet</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bilgisayar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Beyaz Eşya</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>VR Gözlük</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Saat</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="btnKategoriyeGoreListele">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>10</y>
+      <width>93</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Listele</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnEkleme">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>420</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ürün Ekleme</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnListeleme">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>420</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ürün Listeleme</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnGuncelle">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>420</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ürün Güncelleme</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSilme">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>420</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ürün Silme</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>69</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Ürün Kodu</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Ürün Adı</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Birim Fiyatı</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Stok Miktarı</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>30</y>
+      <width>139</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="lneurunKodu"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lneurunAdi"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lnebirimFiyati"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lnestokMiktari"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1010</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
